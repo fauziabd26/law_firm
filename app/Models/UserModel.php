@@ -12,3 +12,7 @@ class UserModel extends Model
 	protected $primaryKey="id_user";
 	protected $fillable=['id_user','username','password'];
 }
+
+public function konsul(){
+    return $this->hasMany(Konsul::class, 'id_konsultasi');
+}

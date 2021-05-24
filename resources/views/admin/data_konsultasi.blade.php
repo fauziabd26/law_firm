@@ -8,7 +8,7 @@
                     <div class="col-sm-4">
                         <div class="page-header float-left">
                             <div class="page-title">
-                                <h5>Data Konsultasi</h5>
+                            <h2>Data Konsultasi</h2>
                             </div>
                         </div>
                     </div>

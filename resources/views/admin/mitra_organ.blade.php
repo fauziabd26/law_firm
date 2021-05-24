@@ -23,6 +23,7 @@
                 <th scope="col">No</th>
                 <td><b>Nama Organisasi</b></td>
                 <td><b>Foto</b></td>
+                <td><b>Action</b></td>
               </tr>
             </thead>
               <?php $no = 1;?>

@@ -9,15 +9,25 @@
             <div class="col-md-12">
                 <div class="aligncenter"><h2 class="aligncenter">Jawaban Konsultasi</h2>
                 <br/>
-            @foreach($konsul as $data)
-            <input type="hidden" name='username' id='username' value="{{Session::get('username')}}">
-            <h5>Pertanyaan Konsultasi :</h5>
-            <input class="form-control" type="text" value="{{ $data->konsul_user }}" readonly>            
-            <div class="d-flex justify-content-start">Jawaban Konsultasi :</div>
-            <input class="form-control" type="text" value="{{ $data->jawaban_konsul }}" readonly>            
-            @endforeach
-            </div>
-        </div>
+            <div class="card-body">
+                <table id="bootstrap-data-table" class="table table-striped table-bordered">
+                <thead>
+                <tr>
+                    <th>Pertanyaan Konsultasi</th>
+                    <th>Jawaban Konsultasi</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                @foreach($konsultasi as $konsul)
+                <tr>
+                    <td>{{$konsul->konsul_user}}</td>
+                    <td>{{$konsul->jawaban_konsul}}</td>
+                </tr>
+                @endforeach
+            </tbody>
+        </table>
+    </div>
 
      <div class="row">
             <div class="col-sm-4 info-blocks"> 

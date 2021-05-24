@@ -54,27 +54,25 @@
                                 <i class="fas fa-tachometer-alt"></i>Dashboard
                             </a>
                         </li>
-                        <li class="has-sub">
-                            <a class="js-arrow" href="#">
-                                <i class="fas fa-trophy"></i>Mitra
-                                <span class="arrow">
-                                    <i class="fas fa-angle-down"></i>
-                                </span>
+                <nav class="navbar-sidebar2">
+                    <ul class="list-unstyled navbar__list">
+                        <li class="active has-sub">
+                            <a class="js-arrow" href="/mitra_tim">
+                            <i class="fas fa-users"></i>Mitra & Team
                             </a>
-                            <ul class="list-unstyled navbar__sub-list js-sub-list">
-                                <li>
-                                    <a href="/mitra_tim">
-                                        <i class="fas fa-table"></i>Mitra & Team</a>
-                                </li>
-                                <li>
-                                    <a href="/mitra_organ">
-                                        <i class="far fa-check-square"></i>Mitra Organisasi</a>
-                                </li>
-                                <li>
-                                    <a href="admin-data_konsultasi">
-                                        <i class="far fa-check-square"></i>Konsultasi</a>
-                                </li>
-                            </ul>
+                        </li>
+                        <nav class="navbar-sidebar2">
+                    <ul class="list-unstyled navbar__list">
+                        <li class="active has-sub">
+                            <a class="js-arrow" href="/mitra_organ">
+                            <i class="fas fa-users"></i>Mitra Organisasi
+                            </a>
+                        </li>
+                        <ul class="list-unstyled navbar__list">
+                        <li class="active has-sub">
+                            <a class="js-arrow" href="admin-data_konsultasi">
+                            <i class="fas fa-sticky-note"></i>Konsultasi
+                            </a>
                         </li>
                     </ul>
                 </nav>

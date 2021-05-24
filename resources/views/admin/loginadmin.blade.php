@@ -53,7 +53,6 @@
           </div>
           <div class="form-group">
                     <button type="submit" class="btn btn-md btn-primary">Login</button> |
-                    <a href="/registeradmin" class="btn btn-md btn-warning">Daftar</a> |
                     <a href="/" class="btn btn-md btn-warning">Back To Menu</a>
                 </div>
                   </form>

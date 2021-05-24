@@ -78,7 +78,7 @@ Route::get('admin-BalasAdmin-{id_konsultasi}', [KonsulController::class, 'ubah']
 Route::put('admin-AksiBalasAdmin-{id_konsultasi}', [KonsulController::class, 'update'])->name('AksiBalasJawaban');
 
 //Konsultasi User
-Route::get('user-konsultasi', [KonsulController::class, 'index'])->name('konsultasi');
+Route::get('user-konsultasi', [KonsulController::class, 'index'])->name('patientConsult');
 Route::post('/konsultasiPost', [KonsulController::class, 'store'])->name('addKonsultasi');
 Route::get('user-jawaban_konsul', [KonsulController::class, 'konsulUser']);
 

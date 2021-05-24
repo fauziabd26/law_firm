@@ -18,7 +18,7 @@ class Mitra_TimController extends Controller
     {
         //
          $mitra_tim = DB::table ('mitra_tim') -> get(); 
-    return view('/admin/mitra_tim', ['mitra_tim' => $mitra_tim]);
+    return view('admin/mitra_tim', ['mitra_tim' => $mitra_tim]);
     }
 
     /**

@@ -11,8 +11,9 @@ class KonsultasiModel extends Model
 	protected $primaryKey="id_konsultasi";
 	protected $fillable=['id_user','konsul_user','jawaban_konsul'];
 
-	public function user()
-{
+	public $timestamps = false;
+
+	public function user(){
     return $this->belongsTo(User::class, 'id_user');
-}
+	}
 }
