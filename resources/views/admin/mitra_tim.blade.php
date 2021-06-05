@@ -55,7 +55,7 @@
                 <i class="fa fa-exclamation-triangle"></i> Mitra & Team Belum tersedia
             </div>
         @endif
-    <a href="/mitra_tim/addmitra_tim"class="btn btn-primary" role="button"><i class="fa fa-pencil-square"></i> + Tambah Mitra & Team</a>  
+    <a href="-mitra_tim-addmitra_tim"class="btn btn-primary" role="button"><i class="fa fa-pencil-square"></i> + Tambah Mitra & Team</a>  
   </div>
 </div>
 @stop
